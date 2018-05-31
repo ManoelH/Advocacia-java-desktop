@@ -1,0 +1,97 @@
+
+
+Software  de advocacia: 
+	Objetivo do sistema: Permitir ao usuário uma visão empresarial da advocacia para uma sustentabilidade financeira organizando as informa��es gerais para a tomada de decis�o.
+
+
+Requisistos de usuario: 
+
+Um sistema de advocacia que permita:
+1- O usuario criar, alterar, arquivar e excluir processos;
+2- Cadastrar e excluir clientes;
+3- Verificar o prazo da conclus�o dos processos;
+4- Um campo com o estudo de caso para ter salvo no sistema o objetivo do cliente na contrata��o do advogado; 
+5- Realizar editar e excluir agendamentos (audi�ncias e reuni�es com os clientes) 
+6- Listar todas as audi�ncias pendentes;
+7- Listar todas as reuni�es pendentes como cliente;
+8- Listar todos os clientes pendentes;
+9- Listar todos os processos pendentes;
+Para facilitar a vida do usu�rio que dessa forma terá uma vis�o empresarial do seu n�gocio
+
+
+
+Requisistos de sistema:
+
+1- O sistema  deverá ter uma tela de login para limitar o acesso;
+2- O sistema deverá ter os seguintes campos principais: Clientes, Agendamentos, Processos e Usuários;
+3- O campo Clientes terá os seguintes campos:
+	3.1- Cadastrar clientes;
+		3.1.1- Para cadastrar será necessario selecionar o tipo: Pessoa física ou jurídica;
+		3.1.1.1- Para pessoa física seram obtidos os seguintes dados: CPF (xxx.xxx.xxx-xx), RG (xxxxxxx-x), Nome (Máximo 100 caracteres), data de nascimento 		(Máximo 10 caracteres) e endereço (Máximo 50 caracteres)
+		3.1.1.2- Para pessoa jurídica seram obtidos os seguintes dados: CNPJ (xx.xxx.xxx/xxxx-xx), nome (Máximo 100 caracteres), endereço (Máximo 50 caracteres) 		e área de atuação (Máximo 30 caracteres)
+	3.2- Excluir clientes;
+		3.2.1- Ao excluir um clientes todos os processos, audiências, reuniões e estudo de caso também seram excluidos; 
+	3.3- Lista de clientes (Ao selecionar um cliente será aberto os seguntis campos de busca:);
+		3.3.1- Dados do cliente;
+		3.3.2- Processos do cliente;
+		3.3.3- Reuniões do cliente;
+		3.3.4- Audiências do cliente;
+		3.3.4- Estudo de caso: Nesse campo terá as infromações do caso do cliente 		(motivo pelo qual ele contratou o serviço do advogado);
+
+4- O campo Agendamentos	terá os seguintes campos:
+	4.1- Audiências;
+	4.2- Reuniões;
+	4.3- Novo agendamento:
+		4.3.1 selecionar o cliente;
+		4.3.2 para criar será necessário selecionar se é reunião ou audiência;
+		4.3.3 para cadastrar o agendamento seram obtidos os seguintes dados: Local, horário e pessoas envolvidas;   
+	4.4- Prioridades: Nesse campo será mostrado os agendamentos que estão proximos da data atual;
+
+5- O campos processos terá os seguintes campos:
+	5.1- Novo processo: Aqui poderam ser inseridos novos processos trabalhistas;
+		5.1.1 Dados a serem preechidos para o cadastro: Nº do processo (NNNNNNN-DD.AAAA.JTR.OOOO), tipo (somente trabalhista), vara (xx),  (cliente já 		cadastrado),
+	5.2- Excluir processos; 
+	5.3- Lista de processos;
+	5.4- Processos arquivados; 
+
+6- No campo usuários poderá ser inserido ou excluído um usuário e também editado o login e senha do usuário logado 
+	6.1- Por padrão o 1º usuário terá login e senha com o nome ADVOCACIA, porque o sistema precisa de um usuário padrão para poder entrar no sistema e inserir 	novos usuários;
+        6.2- O login precisa de no minímo 5 e maximo 10 caracteres
+        6.3- A senha precisa de no minímo 5 e maximo 10 caracteres
+       *6.4- Terá dois tipos de usuários: Administrador (tem todas as permissões no sistema) e usuário comum (Pode apenas consultar os dados). 
+
+
+
+
+*Um menu com todos os processos e outro com os processos diários
+*Salvar os processos para impressão
+Para cadastrar clientes será preciso obter informações como: Nome, cpf, rg, processo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+links: 
+http://www.conjur.com.br/2015-jun-24/conheca-softwares-juridicos-usados-advogados
+https://www.aurum.com.br/blog/caracteristicas-essenciais-em-um-software-para-advogados/#ufom
+https://www.youtube.com/watch?v=4DWBYmFeVvY
+https://www.youtube.com/watch?v=BCeIxX-6XVk
+https://www.youtube.com/watch?v=jAR47xAHeNA
+https://www.youtube.com/watch?v=qlN9Xd7C4bI
+https://www.youtube.com/watch?v=7Zt5eopdVPM
